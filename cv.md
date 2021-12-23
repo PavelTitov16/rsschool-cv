@@ -7,11 +7,12 @@
 **Email:** pashoktitov16@gmail.com
 **GitHub:** PavelTitov16
 **Discord:** Pavluzont
-----
+====
 ##**My Summary**##
 I'm disciplined and executive professional engineer with 7+ years of experience in the design of power supply and electrical equipment for mining chemical industry. My job is developing projects of mine electrical substations, supply and distribution networks of mines, salt dumps, surface and underground complexes with specifications in full graphic and text materials. 
 
 Frontend Developing is a new call for realizing my strong ability to adapt to new environment and challenges. I want to take part in new activities with my persistence in bringing the work started to the end with high ability of team playing - want to feel myself needed in using my English.
+
 I'm Father of Corgi.   
 =====
 ##**Skills**##
@@ -20,7 +21,7 @@ I'm Father of Corgi.
 * JavaScript (Basic)
 * Git
 * VS Code 
------
+====
 ##**Code Example**##
 
 **Kata from Codewars:**
@@ -37,10 +38,11 @@ var countBits = function(n) {
     return x;
 };
 ```
-=====
+====
 ##**Work experience**##
+
 Nothing yet
-----
+====
 ##**Education**##
 * Belarusian National Technical University
     + Power Engineering Supply
@@ -57,4 +59,4 @@ Nothing yet
 ##**Languages**##
 * Russian - native
 * English - upper intermediate
-    Practiced English as volunteer interpreter at different sport competitions during student's time
+   + Practiced English as volunteer interpreter at different sport competitions during student's time
