@@ -1,17 +1,17 @@
 # **Pavel Titov** #
 
-![ProfilePhoto](/img/IMG_3498.jpg "ProfilePhoto")
+![ProfilePhoto](IMG_3498.JPG "ProfilePhoto")
 
-====
+---
 
 ## **Contacts** ##
-**Location:** Minsk, Belarus
-**Phone:** +375 29 348-62-01
-**Email:** pashoktitov16@gmail.com
-**GitHub:** PavelTitov16
+**Location:** Minsk, Belarus\
+**Phone:** +375 29 348-62-01\
+**Email:** pashoktitov16@gmail.com\
+**GitHub:** PavelTitov16\
 **Discord:** Pavluzont
 
-====
+---
 
 ## **My Summary** ##
 I'm disciplined and executive professional engineer with 7+ years of experience in the design of power supply and electrical equipment for mining chemical industry. My job is developing projects of mine electrical substations, supply and distribution networks of mines, salt dumps, surface and underground complexes with specifications in full graphic and text materials. 
@@ -20,7 +20,7 @@ Frontend Developing is a new call for realizing my strong ability to adapt to ne
 
 I'm Father of Corgi.   
 
-=====
+---
 
 ## **Skills** ##
 * HTML
@@ -29,7 +29,7 @@ I'm Father of Corgi.
 * Git
 * VS Code 
 
-====
+---
 
 ## **Code Example** ##
 
@@ -47,13 +47,13 @@ var countBits = function(n) {
     return x;
 };
 ```
-====
+---
 
 ## **Work experience** ##
 
 _Nothing yet_
 
-====
+---
 
 ## **Education** ##
 * Belarusian National Technical University
@@ -68,7 +68,7 @@ _Nothing yet_
     + CSS for begginers by Code Basics
     + RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
-====
+---
 
 ## **Languages** ##
 * Russian - native
