@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #575166;
+    width: 72%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #9188ab   ;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 60px;
+    text-decoration: none;
+    transition: .3s;
+    color: #E9E7EE;
+}
+
+.avatar {
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+.profile-name {
+    color: #575166;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #dfe7f1;
+    color: #575166  ;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F3F6;
+}
+
+
+.section {
+    width: 50%; 
+}
+    #profile {order: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    #contacts {order: 2;}
+    #summary {order: 1;}
+    #skills {order: 2;
+    font-size: 25px;
+}
+    #codeexample {order: 4;}
+    #workexp {order: 5}
+    #education {order: 3}
+    #languages {order: 6}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #9188ab;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content:space-between;
+}
+
+.git {
+    text-decoration: none;
+    color: #575166;
+}
+
+@keyframes change-color {
+    0% {
+      color: #E9E7EE;
+    }
+    50% {
+      color: #575166;
+    }
+  
+    100% {
+      color: #E9E7EE;
+    }
+  }
+
+.footer-git{
+    text-decoration: none;
+    color: #E9E7EE;
+    animation: change-color 3s infinite;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -13px;
+    width: 300px;
+    border-bottom: 12px solid #9188ab;
+}

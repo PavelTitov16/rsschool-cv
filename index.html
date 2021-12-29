@@ -1,17 +1,132 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <script src="https://kit.fontawesome.com/62e639e6ea.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header> 
-        <h1>Pavel Titov</h1>
-        <img src="/IMG_3498.JPG" alt="Фото профиля">
-      </header>
+<header class="header"> 
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#codeexample" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#workexp" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="main-container">
+  <section class="section" id="profile">
+    <img  class="avatar" src="assets/IMG_3507.JPG" alt="Фото профиля">
+    <h1 class="profile-name">Pavel Titov</h1>
+    <h2 class="section-item">Front-end Developer</h2>
+    
+  </section> 
+    <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <p><i class="fas fa-globe-europe"></i> <b>Location:</b> Minsk, Belarus</p>
+        <p><i class="fas fa-mobile-alt"></i> <b>Phone:</b> +375 29 348-62-01</p>
+        <p><i class="fab fa-google"></i> <b>Email:</b> pashoktitov16@gmail.com</p>
+        <p><i class="fab fa-github"></i> <b>GitHub:</b> <a href="https://github.com/PavelTitov16" class="git">PavelTitov16</a></p>
+        <p><i class="fab fa-discord"></i> <b>Discord:</b> #Pavluzont </p>
+    </section>
+    <section class="section" id="summary">
+        <h2 class="section-title">My Summary</h2>
+        <p>I'm disciplined and executive professional engineer with 7+ years of experience in the design of power supply 
+        and electrical equipment for mining chemical industry. My job is developing projects of mine electrical substations, 
+        supply and distribution networks of mines, salt dumps, surface and underground complexes with specifications in 
+        full graphic and text materials.</p>
+        <p>Frontend Developing is a new call for realizing my strong ability to adapt to new environment and challenges. 
+        I want to take part in new activities with my persistence in bringing the work started to the end with high 
+        ability of team playing - want to feel myself needed in using my English.</p>
+    </section>
+    <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git</li>
+                <li>VS Code</li>
+            </ul>
+    </section>
+    <section class="section" id="codeexample">
+        <h2 class="section-title">Code Example</h2>
+        <p><b>Kata from Codewars:</b></p>
+        <p>Write a function that takes an integer as input, and returns the number of bits that are equal to one in the 
+        binary representation of that number. You can guarantee that input is non-negative.
+        Example: The binary representation of <b>1234</b> is <b><i>10011010010</i></b>, so the function should return <b>5</b> in this case</p>
+         <pre><code>var countBits = function(n) {
+            let x = 0;
+                    
+            while (n > 0) {
+                x = (n % 2) + x;
+                 n = (n - (n % 2)) / 2;
+            }
+            return x;
+            };</code>
+        </pre>
+    </section>
+    <section class="section" id="workexp">
+        <h2 class="section-title">Work experience</h2>
+        <span><b>JSC "Belgorkhimprom"</b></span>
+            <p><i>Lead Engineer</i></p>
+            <span>Design of power supply for surface and underground mines complexes for the mining industry.</span>
+            <span>Accompany design decisions with a visit to the construction site. Coordination of solutions with the customer and contractors.</span>
+    </section>
+    <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+            <ul>
+                <li><b>Belarusian National Technical University</b>
+                    <ul>
+                        <li>Power Engineering Supply</li>
+                    </ul>
+                </li>
+                <li><b>Academy of postgraduate education</b>
+                    <ul>
+                        <li>Interpreter</li>
+                    </ul>
+                </li>
+            </ul>
+                <b><u>Courses</u></b>
+                    <ul>
+                        <li><b>Stepik</b> - JavaScript for begginers</li>
+                        <li>JavaScript Manual on learnjavascript.ru <i>(in progress)</i></li>
+                        <li><b>Stepik</b> - Web development for begginers: HTML&CSS</li>
+                        <li><b>Code Basics</b> - HTML for begginers</li>
+                        <li><b>Code Basics</b> - CSS for begginers</li>
+                        <li><b>RS Schools</b> - «JavaScript/Front-end. Stage 0» <i>(in progress)</i></li>
+                        <li><b>Code Basics</b> - JavaScript for begginers <i>(in progress)</i></li>
+                    </ul>
+            
+    </section>
+    <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>Russian - native</li>
+                <li>English - upper intermediate</li>
+            </ul>
+                <span>Practiced English as volunteer interpreter at different sport competitions during student's time</span>
+            
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer-container">
+    <a href="https://rs.school/js/" class="rss"></a>
+    <p class="footer-git">2021</p>
+    </div>
+    <a href="https://github.com/PavelTitov16" class="footer-git">PavelTitov16 <i class="fab fa-github"></i></a>
+</footer>
 </body>
 </html>
