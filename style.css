@@ -8,7 +8,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #575166;
-    width: 72%;
     margin: 0 auto;
     padding: 0 auto;
 }
@@ -18,7 +17,9 @@ body {
 }
 
 .header {
-    background-color: #9188ab   ;
+    padding: 0 10px 0 10px;
+    background-color: #9188ab;
+    margin-bottom: -20px;
 }
 
 .nav-list {
@@ -38,50 +39,79 @@ body {
 
 .avatar {
     display: flex;
+    align-self: center;
     width: 300px;
     height: auto;
 }
 
 .profile-name {
-    color: #575166;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    flex: 0 0 40%;
 }
 
-.section-title {
+.title {
     font-weight: 400;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 3px;
     background-color: #dfe7f1;
+    width: 420px;
     color: #575166  ;
     
 }
 
 .main-container {
-    display: flex;
-    flex-wrap: wrap;
     background-color: #F4F3F6;
 }
 
+.inner {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
 
 .section {
-    width: 50%; 
+    max-width: 1100px;
+    padding: 10px;
+    margin: 0 auto; 
 }
-    #profile {order: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-    }
-    #contacts {order: 2;}
-    #summary {order: 1;}
-    #skills {order: 2;
+
+.contact {
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex: 0 0 40%;
+}
+
+.right {
+    flex: 0 0 55%;
+}
+
+.skill {
     font-size: 25px;
+    flex: 0 0 55%;
 }
-    #codeexample {order: 4;}
-    #workexp {order: 5}
-    #education {order: 3}
-    #languages {order: 6}
 
 .footer {
+    padding: 0 10px 0 10px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -119,12 +149,30 @@ body {
     animation: change-color 3s infinite;
 }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
+@media screen and  (max-width: 768px) {
+    .header {
+        flex: 0 0 100%;
+    }
+    .inner {
+      flex: 0 0 100%;  
+    }
+    .left {
+      flex: 0 0 100%;
+    }
+    .right {
+        flex: 0 0 100%;
+    }
+    .footer {
+        flex: 0 0 100%;
+    }
+    .text {
+        flex: 0 0 100%;
     }
 }
 
+.codeexam {
+    overflow-x: auto;
+}
 .rss {
     width: 121px;
     height: 45px;
@@ -133,16 +181,17 @@ body {
     background-repeat: no-repeat;
 }
 
-.section-item {
+.prof {
     position: relative;
-    padding-left: 30px;
 }
 
-.section-item::before {
+.prof::before {
     content: "";
     position: absolute;
     top: -30px;
-    left: -13px;
+    left: -27px;
     width: 300px;
     border-bottom: 12px solid #9188ab;
 }
+
+
