@@ -131,23 +131,9 @@ body {
     color: #575166;
 }
 
-@keyframes change-color {
-    0% {
-      color: #E9E7EE;
-    }
-    50% {
-      color: #575166;
-    }
-  
-    100% {
-      color: #E9E7EE;
-    }
-  }
-
 .footer-git{
     text-decoration: none;
     color: #E9E7EE;
-    animation: change-color 3s infinite;
 }
 
 @media screen and  (max-width: 768px) {
@@ -195,4 +181,10 @@ body {
     border-bottom: 12px solid #9188ab;
 }
 
+.project {
+    list-style-type: none;
+}
 
+.project_link {
+    text-decoration: none;
+}
