@@ -29,16 +29,36 @@ body {
     align-items: center;
     list-style: none;
 }
-.nav-link {
+.nav-item {
     padding: 0 10px;
+}
+
+.nav-link {
     line-height: 60px;
     text-decoration: none;
     transition: 0.5s;
     color: #E9E7EE;
+    position: relative;
 }
+.nav-link::after {
+    position: absolute;
+    content: "";
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    width: 0;
+    border-bottom: 2px solid #91DFFC;
+    transition: 0.7s ease-in-out;
+}
+
+.nav-link:hover.nav-link::after {
+    width: 100%;
+}
+
 .nav-link:hover {
-    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+    filter: invert(6%) sepia(71%) saturate(334%) hue-rotate(165deg) brightness(99%) contrast(92%);
 }
+
 .rightside {
     display: flex;
     justify-content: flex-end;
@@ -82,7 +102,18 @@ body {
     background-color: #dfe7f1;
     width: 300px;
     color: #575166  ;
-    
+}
+.prof {
+    position: relative;
+}
+
+.prof::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -27px;
+    width: 300px;
+    border-bottom: 4px solid #9188ab;
 }
 
 .main-container {
@@ -163,34 +194,66 @@ body {
 .git {
     text-decoration: none;
     color: #575166;
+    transition: 0.5s;
 }
+.git:hover {
+    filter: invert(74%) sepia(71%) saturate(334%) hue-rotate(165deg) brightness(99%) contrast(92%);
+}
+
 .footer-git{
     text-decoration: none;
     color: #E9E7EE;
+    transition: 0.5s;
+}
+.footer-git:hover {
+    filter: invert(6%) sepia(71%) saturate(334%) hue-rotate(165deg) brightness(99%) contrast(92%);
+}
+.footer-git::after {
+    position: absolute;
+    content: "";
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    width: 0;
+    border-bottom: 2px solid #91DFFC;
+    transition: 0.7s ease-in-out;
 }
 
+.footer-git:hover.footer-git::after {
+    width: 100%;
+}
+
+
+.year{
+    color: #E9E7EE;
+}
+
+.conditions {
+    padding-left: 50px;
+}
 .codeexam {
     overflow-x: auto;
 }
+.codewars {
+    text-decoration: underline;
+    color: #575166;
+    transition: 0.5s;
+}
+.codewars:hover {
+    filter: invert(74%) sepia(71%) saturate(334%) hue-rotate(165deg) brightness(99%) contrast(92%);
+}
+
+
 .rss {
     width: 121px;
     height: 45px;
     background-image: url("./assets/rs_school_js.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    transition: 0.5s;
 }
-
-.prof {
-    position: relative;
-}
-
-.prof::before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -27px;
-    width: 300px;
-    border-bottom: 4px solid #9188ab;
+.rss:hover {
+    filter: invert(80%) sepia(71%) saturate(334%) hue-rotate(165deg) brightness(99%) contrast(92%);
 }
 
 .language_list > ul {
@@ -207,6 +270,10 @@ body {
 .project_link {
     text-decoration: none;
     color: #575166;
+    transition: 0.5s;
+}
+.project_link:hover {
+    filter: invert(74%) sepia(71%) saturate(334%) hue-rotate(165deg) brightness(99%) contrast(92%);
 }
 
 @media (max-width:900px) {

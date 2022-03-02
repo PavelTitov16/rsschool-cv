@@ -128,23 +128,19 @@
                     </div>
                     <div class="right">
                         <h2 class="title" id="codeexample">Code Example</h2>
-                        <p class="text"><b>Kata from Codewars:</b></p>
-                        <p class="text">Write a function that takes an integer as input, and returns the number of bits
-                            that are equal to one in the
-                            binary representation of that number. You can guarantee that input is non-negative.
-                            Example: The binary representation of <b>1234</b> is <b><i>10011010010</i></b>, so the
-                            function should return <b>5</b> in this case</p>
+                        <p class="text"><b>Kata from <a href="https://www.codewars.com/users/PavelTitov16"
+                                    class="codewars">Codewars</a>:</b></p>
+                        <p class="text">Typically, reversing an array is a pretty straightforward task even for novice programmers. But not when a crowd of
+                            angry zombies scratching your door, looking for a fresh brains. In this case even skilled ninja-geek probably prefer to
+                            quickly push his code on github to have enough time to find a chainsaw. So there's <b>two</b> obstacles:</p>
+                            <ol class="conditions">
+                                <li>Your code needs to be as short as possible, in fact not longer than <b>28</b> characters</li>
+                                <li>Because you are scared and stressed you have forgotten how to use the standard <b><i>reverse() method</i></b></li>
+                            </ol>
+                        
                         <pre>
                             <code class="codeexam">
-var cBit = function(n) {
-let x = 0;
-        
-while (n > 0) {
-    x = (n % 2) + x;
-    n = (n - (n % 2)) / 2;
-}
-return x;
-};
+  weirdReverse=a=>a.sort(a=>1)
                             </code>
                         </pre>
                     </div>
@@ -195,7 +191,7 @@ return x;
             <footer class="footer">
                 <div class="footer-container">
                     <a href="https://rs.school/js/" class="rss"></a>
-                    <p class="footer-git">2021</p>
+                    <p class="year">2021</p>
                 </div>
                 <a href="https://github.com/PavelTitov16" class="footer-git">PavelTitov16 <i
                         class="fab fa-github"></i></a>
@@ -206,3 +202,7 @@ return x;
 </body>
 
 </html>
+
+
+
+
