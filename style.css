@@ -362,13 +362,13 @@ body {
     }
     .nav-list {
         flex-direction: column;
-        margin-top: 135px;
+        margin-top: 30px;
         gap: 16px;
         justify-content: flex-start;
     }
     .nav-item {
-        font-size: 35px;
-        line-height: 72px;
+        font-size: 25px;
+        line-height: 70px;
     }
     .nav.active {
         right: 0;
@@ -378,6 +378,9 @@ body {
 @media (max-width: 498px) {
     .nav {
         max-width: 500px;
+    }
+    .nav-list {
+        margin-top: 50px;
     }
 }
 
