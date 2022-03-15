@@ -9,7 +9,7 @@
 **Phone:** +375 29 348-62-01\
 **Email:** pashoktitov16@gmail.com\
 **GitHub:** PavelTitov16\
-**Discord:** Pavluzont
+**Discord:** Pavluzont #5919
 
 ---
 
@@ -25,33 +25,37 @@ I'm Father of Corgi.
 ## **Skills** ##
 * HTML
 * CSS
-* JavaScript (Basic)
+* JavaScript 
 * Git
 * VS Code 
+* Figma
+* DevTools
+* Photoshop
+* Netlify
+* jQuery  
+* React
 
 ---
 
 ## **Code Example** ##
-
+![CodeWars](https://www.codewars.com/users/PavelTitov16/badges/small)
 **Kata from Codewars:**
-Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
-Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+Typically, reversing an array is a pretty straightforward task even for novice programmers. But not when a crowd of angry zombies scratching your door, looking for a fresh brains. In this case even skilled ninja-geek probably prefer to quickly push his code on github to have enough time to find a chainsaw. So there's **two** obstacles:
+1. Your code needs to be as short as possible, in fact not longer than 28 characters
+2. Because you are scared and stressed you have forgotten how to use the standard reverse() method
 ```javascript
-var countBits = function(n) {
-  let x = 0;
-      
-    while (n > 0) {
-      x = (n % 2) + x;
-      n = (n - (n % 2)) / 2;
-    }
-    return x;
-};
+weirdReverse=a=>a.sort(a=>1)
 ```
 ---
 
-## **Work experience** ##
+## **Projects** ##
 
-_Nothing yet_
+[CV project](https://paveltitov16.github.io/rsschool-cv/)\
+[Portfolio](https://paveltitov16.github.io/Photographer-s-portfolio/portfolio/)\
+[Custom video](https://paveltitov16.github.io/Video_player/custom-video/)\
+[Movie application](https://paveltitov16.github.io/Movie-application/movie-app/)\
+[Game **"Corgi Jump"**](https://paveltitov16.github.io/Corgi_Jump-game/game-app/)\
+[Quiz application](https://paveltitov16.github.io/Quiz/)
 
 ---
 
@@ -61,12 +65,14 @@ _Nothing yet_
 * Academy of postgraduate education
     + Interpreter
 * Courses
-    + JavaScript for begginers by Stepik
-    + JavaScript Manual on learnjavascript.ru (in progress)
-    + Web development for begginers: HTML&CSS by Stepik
-    + HTML for begginers by Code Basics 
-    + CSS for begginers by Code Basics
-    + RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+    + Stepik - JavaScript for begginers ([certificate](https://stepik.org/cert/1267113))
+    + Stepik - Web development for begginers: HTML&CSS ([certificate](https://stepik.org/cert/1328852))
+    + RS Schools - «JavaScript/Front-end. Stage 0» ([certificate](https://app.rs.school/certificate/3775uhay))
+    + RS Schools - «JavaScript/Front-end 2022Q1» (in proggress)
+    + Code Basics - HTML for begginers
+    + Code Basics - CSS for begginers
+    + Code Basics - JavaScript for begginers
+    + Udemy - Full JavaScript + React (in proggress)
 
 ---
 
