@@ -38,7 +38,7 @@ I'm Father of Corgi.
 ---
 
 ## **Code Example** ##
-![CodeWars](https://www.codewars.com/users/PavelTitov16/badges/small)
+![CodeWars](https://www.codewars.com/users/PavelTitov16/badges/small)\
 **Kata from Codewars:**
 Typically, reversing an array is a pretty straightforward task even for novice programmers. But not when a crowd of angry zombies scratching your door, looking for a fresh brains. In this case even skilled ninja-geek probably prefer to quickly push his code on github to have enough time to find a chainsaw. So there's **two** obstacles:
 1. Your code needs to be as short as possible, in fact not longer than 28 characters
